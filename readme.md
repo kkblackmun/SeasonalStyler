@@ -105,7 +105,7 @@ Optional:
 
 ## Wireframes
 
-![ios101_wireframe_capstone](https://hackmd.io/_uploads/BkiOitog0.jpg)
+![ios101_wireframe_capstone](ios101-seasonalstyler-wireframe.JPG)
 
 <img src="ShoeCloset_Wireframe" width=600
 >
