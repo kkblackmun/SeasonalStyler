@@ -120,7 +120,8 @@ Optional:
 
 ### Models
 
-[Add table of models]
+![v1.0](ios101-capstone-proj-seasonalstyle.gif)
+Version 1.0
 
 ### Networking
 
