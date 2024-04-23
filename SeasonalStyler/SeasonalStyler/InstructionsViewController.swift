@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import PhotosUI
 
 class InstructionsViewController: UIViewController {
 
@@ -17,6 +18,8 @@ class InstructionsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //adding the tab bar button to the right hand corner to allow users to add a picture
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "plus"), style: .plain, target: self, action: #selector(pickImage))
         //set the confirmation button to hidden initially
         //unhide after image is selected
         confirmImageButton.isHidden = true
@@ -30,7 +33,19 @@ class InstructionsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    func configureImagePicker(){
+        var configuration = PHPickerConfiguration()
+        configuration.selectionLimit = 1
+        configuration.filter = .images
+        let pickerViewController = PHPickerViewController(configuration: configuration)
+        pickerViewController.delegate = self
+        present(pickerViewController, animated: true)
+        //.delegate does? just allows
+    }
+    
+    @objc func pickImage(){
+        configureImagePicker()
+    }
     /*
     // MARK: - Navigation
 
@@ -42,3 +57,24 @@ class InstructionsViewController: UIViewController {
     */
 
 }
+extension InstructionsViewController: PHPickerViewControllerDelegate {
+    func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
+            picker.dismiss(animated: true)
+            if let itemprovider = results.first?.itemProvider{
+              
+                if itemprovider.canLoadObject(ofClass: UIImage.self){
+                   
+                    itemprovider.loadObject(ofClass: UIImage.self) { image , error  in
+                        if let selectedImage = image as? UIImage{
+                            DispatchQueue.main.async {
+                                self.selfieImage.image = selectedImage
+                                self.confirmImageButton.isHidden = false
+                                UserDefaultsManager.shared.saveImage(selectedImage, forKey: "userFaceImageData")
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+
