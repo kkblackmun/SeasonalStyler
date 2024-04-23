@@ -7,8 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeViewController: UIViewController {
 
+    @IBOutlet weak var nextButton: UIButton!
+    
+    @IBAction func nextButtonIsTapped(_ sender: UIButton) {
+        //not sure if necessary tbh
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

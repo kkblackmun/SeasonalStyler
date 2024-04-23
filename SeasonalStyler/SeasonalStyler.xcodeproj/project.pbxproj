@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC43053F2BD784DF00D43AB1 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43053E2BD784DF00D43AB1 /* InstructionsViewController.swift */; };
+		BC4305412BD78BA800D43AB1 /* UserAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4305402BD78BA800D43AB1 /* UserAppearance.swift */; };
 		BCFE1C2B2BCFB5EB00B81941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE1C2A2BCFB5EB00B81941 /* AppDelegate.swift */; };
 		BCFE1C2D2BCFB5EB00B81941 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE1C2C2BCFB5EB00B81941 /* SceneDelegate.swift */; };
-		BCFE1C2F2BCFB5EB00B81941 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE1C2E2BCFB5EB00B81941 /* ViewController.swift */; };
+		BCFE1C2F2BCFB5EB00B81941 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE1C2E2BCFB5EB00B81941 /* WelcomeViewController.swift */; };
 		BCFE1C322BCFB5EB00B81941 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BCFE1C312BCFB5EB00B81941 /* Base */; };
 		BCFE1C342BCFB5F000B81941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFE1C332BCFB5F000B81941 /* Assets.xcassets */; };
 		BCFE1C372BCFB5F000B81941 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BCFE1C362BCFB5F000B81941 /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC43053E2BD784DF00D43AB1 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		BC4305402BD78BA800D43AB1 /* UserAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAppearance.swift; sourceTree = "<group>"; };
 		BCFE1C272BCFB5EB00B81941 /* SeasonalStyler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasonalStyler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFE1C2A2BCFB5EB00B81941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCFE1C2C2BCFB5EB00B81941 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCFE1C2E2BCFB5EB00B81941 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCFE1C2E2BCFB5EB00B81941 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		BCFE1C312BCFB5EB00B81941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCFE1C332BCFB5F000B81941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCFE1C362BCFB5F000B81941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,8 +62,10 @@
 			children = (
 				BCFE1C2A2BCFB5EB00B81941 /* AppDelegate.swift */,
 				BCFE1C2C2BCFB5EB00B81941 /* SceneDelegate.swift */,
-				BCFE1C2E2BCFB5EB00B81941 /* ViewController.swift */,
+				BCFE1C2E2BCFB5EB00B81941 /* WelcomeViewController.swift */,
+				BC43053E2BD784DF00D43AB1 /* InstructionsViewController.swift */,
 				BCFE1C302BCFB5EB00B81941 /* Main.storyboard */,
+				BC4305402BD78BA800D43AB1 /* UserAppearance.swift */,
 				BCFE1C332BCFB5F000B81941 /* Assets.xcassets */,
 				BCFE1C352BCFB5F000B81941 /* LaunchScreen.storyboard */,
 				BCFE1C382BCFB5F000B81941 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCFE1C2F2BCFB5EB00B81941 /* ViewController.swift in Sources */,
+				BCFE1C2F2BCFB5EB00B81941 /* WelcomeViewController.swift in Sources */,
 				BCFE1C2B2BCFB5EB00B81941 /* AppDelegate.swift in Sources */,
+				BC43053F2BD784DF00D43AB1 /* InstructionsViewController.swift in Sources */,
+				BC4305412BD78BA800D43AB1 /* UserAppearance.swift in Sources */,
 				BCFE1C2D2BCFB5EB00B81941 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
