@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BC43053F2BD784DF00D43AB1 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43053E2BD784DF00D43AB1 /* InstructionsViewController.swift */; };
 		BC4305412BD78BA800D43AB1 /* UserAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4305402BD78BA800D43AB1 /* UserAppearance.swift */; };
+		BC4305432BD8396900D43AB1 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4305422BD8396900D43AB1 /* ColorPickerViewController.swift */; };
 		BCFE1C2B2BCFB5EB00B81941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE1C2A2BCFB5EB00B81941 /* AppDelegate.swift */; };
 		BCFE1C2D2BCFB5EB00B81941 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE1C2C2BCFB5EB00B81941 /* SceneDelegate.swift */; };
 		BCFE1C2F2BCFB5EB00B81941 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFE1C2E2BCFB5EB00B81941 /* WelcomeViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		BC43053E2BD784DF00D43AB1 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 		BC4305402BD78BA800D43AB1 /* UserAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAppearance.swift; sourceTree = "<group>"; };
+		BC4305422BD8396900D43AB1 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		BCFE1C272BCFB5EB00B81941 /* SeasonalStyler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasonalStyler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFE1C2A2BCFB5EB00B81941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCFE1C2C2BCFB5EB00B81941 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				BCFE1C2C2BCFB5EB00B81941 /* SceneDelegate.swift */,
 				BCFE1C2E2BCFB5EB00B81941 /* WelcomeViewController.swift */,
 				BC43053E2BD784DF00D43AB1 /* InstructionsViewController.swift */,
+				BC4305422BD8396900D43AB1 /* ColorPickerViewController.swift */,
 				BCFE1C302BCFB5EB00B81941 /* Main.storyboard */,
 				BC4305402BD78BA800D43AB1 /* UserAppearance.swift */,
 				BCFE1C332BCFB5F000B81941 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			files = (
 				BCFE1C2F2BCFB5EB00B81941 /* WelcomeViewController.swift in Sources */,
 				BCFE1C2B2BCFB5EB00B81941 /* AppDelegate.swift in Sources */,
+				BC4305432BD8396900D43AB1 /* ColorPickerViewController.swift in Sources */,
 				BC43053F2BD784DF00D43AB1 /* InstructionsViewController.swift in Sources */,
 				BC4305412BD78BA800D43AB1 /* UserAppearance.swift in Sources */,
 				BCFE1C2D2BCFB5EB00B81941 /* SceneDelegate.swift in Sources */,

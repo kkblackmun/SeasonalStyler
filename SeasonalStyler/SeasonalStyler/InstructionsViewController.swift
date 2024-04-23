@@ -29,6 +29,10 @@ class InstructionsViewController: UIViewController {
         
         instructionsText.layer.cornerRadius = 10 // Adjust the corner radius value as needed
         instructionsText.layer.masksToBounds = true
+        
+        // Round the corners of the image view
+        selfieImage.layer.cornerRadius = 10 // Adjust the corner radius value as needed
+        selfieImage.layer.masksToBounds = true
 
         // Do any additional setup after loading the view.
     }
