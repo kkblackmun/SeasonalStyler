@@ -51,20 +51,22 @@ SeasonalStyler is an app that uses generative AI and prompt engineering to find 
 
 **Required Must-have Stories**
 
-- [ ] User can add a picture of themselves
+- [X] User can add a picture of themselves
 - [ ] User can add select the color in the picture for their:
   - [ ] eyes
   - [ ] hair
   - [ ] skin
-- [ ] User can go back and change the photo
-- [ ] User can confirm their selection and view the colors they chose
+- [X] User can go back and change the photo
+- [X] User can confirm their selection
+- [ ] User can confirm their color selection and view the colors they chose
 - [ ] User can view the results from Bard API
 
 * ...
 
 **Optional Nice-to-have Stories**
 
-- [ ] User is met with instructions and an animation
+- [X] User is met with instructions
+- [ ] User is met with an animation
 - [ ] User can create an account
 - [ ] User can login
 - [ ] User can shop on the app
@@ -74,21 +76,23 @@ SeasonalStyler is an app that uses generative AI and prompt engineering to find 
 ### 2. Screen Archetypes
 5 screens
 Required:
-- [ ] Instructions - User can view instructions
-- [ ] ImageSelect - User can scroll through their camera roll and upload a photo and/or take a photo
-- [ ] ColorSelect - User can select three colors from their image
+- [X] Instructions - User can view instructions
+- [X] ImageSelect - User can scroll through their camera roll and upload a photo and/or take a photo
+- [X] ColorSelect - User can select three colors from their image (NOTE: SCREEN EXISTS, COLOR PICKING FEATURE WILL BE ADDED ASAP)
 - [ ] ChoiceConfirmation - User can confirm their color selections
 - [ ] Results - User can view the results from Bard API
 
 Optional:
-- [ ] Welcome- Opening screen/loading
+- [X] Welcome- Opening screen/loading
 - [ ] Profile - User can view their identity and preferred settings/season
 - [ ] Settings - User can configure app options
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
-
+- [X] User can Navigate between Screens
+Optional
+- [ ] User can do Tab navigation
 * Photo-> instructions + photo selection screen
 * Paint-> color selection screen
 * Shirt-> your results screen
@@ -97,7 +101,7 @@ Optional:
 
 **Flow Navigation** (Screen to Screen)
 **is required**
-- [ ] Welcome -> **Instructions** -> **ImageSelect** -> **ColorSelect** -> LoadingScreen -> **Results**
+- [X] Welcome -> **Instructions** -> **ImageSelect** -> **ColorSelect** -> LoadingScreen -> **Results**
 - [ ] Camera in tab takes to **Instructions** (restart process)
 - [ ] Paint in tab takes to **ColorSelect**
 - [ ] Shirt in tab takes to **YourResults**
@@ -119,9 +123,17 @@ Optional:
 [This section will be completed in Unit 9]
 
 ### Models
+![v0.4](ios101-capstone-proj-seasonalstyle_v0.4.gif)
+Version 0.4
 
-![v1.0](ios101-capstone-proj-seasonalstyle.gif)
-Version 1.0
+![v0.3](ios101-capstone-proj-seasonalstyle_v0.3.gif)
+Version 0.3
+
+![v0.2](ios101-capstone-proj-seasonalstyle_v0.2.gif)
+Version 0.2
+
+![v0.1](ios101-capstone-proj-seasonalstyle.gif)
+Version 0.1
 
 ### Networking
 
