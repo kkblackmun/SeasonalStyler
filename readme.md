@@ -122,18 +122,25 @@ Optional
 
 [This section will be completed in Unit 9]
 
-### Models
+## Models
+
+![v0.5](ios101-capstone-proj-seasonalstyle_v0.5.gif)
+
+### Version 0.5
+
+
 ![v0.4](ios101-capstone-proj-seasonalstyle_v0.4.gif)
-Version 0.4
+
+### Version 0.4
 
 ![v0.3](ios101-capstone-proj-seasonalstyle_v0.3.gif)
-Version 0.3
+### Version 0.3
 
 ![v0.2](ios101-capstone-proj-seasonalstyle_v0.2.gif)
-Version 0.2
+### Version 0.2
 
 ![v0.1](ios101-capstone-proj-seasonalstyle.gif)
-Version 0.1
+### Version 0.1
 
 ### Networking
 
