@@ -124,6 +124,10 @@ Optional
 
 ## Models
 
+![v0.5](ios101-capstone-proj-seasonalstyle_v0.6.gif)
+
+### Version 0.6
+
 ![v0.5](ios101-capstone-proj-seasonalstyle_v0.5.gif)
 
 ### Version 0.5
