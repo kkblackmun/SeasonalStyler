@@ -41,6 +41,7 @@ class InstructionsViewController: UIViewController {
         //    selfieImage.image = userImage
         //    confirmImageButton.isHidden = false
         //}
+        //bug-- this user Image persisting causes the Instruction title to disappear
     }
     
     func configureImagePicker(){
