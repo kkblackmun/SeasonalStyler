@@ -136,6 +136,7 @@
                         <outlet property="confirmImageButton" destination="cvs-Yg-IeN" id="NZU-4i-pyu"/>
                         <outlet property="disclaimerText" destination="paN-h8-vX7" id="ftd-br-D0Z"/>
                         <outlet property="instructionsText" destination="iLe-KO-yeQ" id="1gm-Hs-Wc7"/>
+                        <outlet property="instructionsTitle" destination="q1T-qj-5D0" id="PGI-rT-VTa"/>
                         <outlet property="selfieImage" destination="McZ-i5-hBX" id="z0n-80-tHl"/>
                     </connections>
                 </viewController>
@@ -235,15 +236,12 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ukq-MD-Bqz">
                                                 <rect key="frame" x="0.0" y="0.0" width="78" height="68.333333333333329"/>
                                                 <viewLayoutGuide key="safeArea" id="Jen-fj-xbz"/>
-                                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zY5-Qx-ZF7">
                                                 <rect key="frame" x="0.0" y="79.333333333333314" width="78" height="68.333333333333314"/>
-                                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQ3-BC-CIC">
                                                 <rect key="frame" x="0.0" y="158.66666666666669" width="78" height="68.333333333333314"/>
-                                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                             </view>
                                         </subviews>
                                     </stackView>
@@ -278,7 +276,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="KJc-Pr-xpQ"/>
                     <connections>
+                        <outlet property="eyeColorSwatch" destination="Ukq-MD-Bqz" id="ReY-E8-FbT"/>
+                        <outlet property="hairColorSwatch" destination="yQ3-BC-CIC" id="hGb-ZY-jcf"/>
                         <outlet property="selfieImage" destination="g9N-iL-HN1" id="itr-qa-7vH"/>
+                        <outlet property="skinColorSwatch" destination="zY5-Qx-ZF7" id="pSJ-g8-5g3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nje-Lh-QdK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -317,9 +318,6 @@
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

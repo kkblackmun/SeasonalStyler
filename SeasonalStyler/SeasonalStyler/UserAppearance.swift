@@ -13,7 +13,9 @@ struct UserAppearance: Codable {
     let eyeColor: String
     let hairColor: String
     let skinColor: String
-    let userFaceImageData: String //path used to create a URL to fetch the user's selfie image
+    let userFaceImageData: Data?
+    //EDIT!! : DEPRECATED: userFaceImageData once stored as a String for a path used to create a URL to fetch the user's selfie image
+    //NOW: Stored as Data
  
     enum CodingKeys: String, CodingKey {
         case eyeColor
@@ -53,13 +55,15 @@ class UserDefaultsManager {
     
     func saveImage(_ image: UIImage, forKey key: String) {
             guard let data = image.jpegData(compressionQuality: 0.5) else { return }
-            let encoded = try! PropertyListEncoder().encode(data)
-            userDefaults.set(encoded, forKey: key)
+            userDefaults.set(data, forKey: key)
+            //DEPRECATED: let encoded = try! PropertyListEncoder().encode(data)
+            //userDefaults.set(encoded, forKey: key)
     }
         
     func loadImage(forKey key: String) -> UIImage? {
             guard let data = userDefaults.data(forKey: key) else { return nil }
-            let decoded = try! PropertyListDecoder().decode(Data.self, from: data)
-            return UIImage(data: decoded)
+            return UIImage(data: data)
+            //DEPRECATED: let decoded = try! PropertyListDecoder().decode(Data.self, from: data)
+            //return UIImage(data: decoded)
     }
 }

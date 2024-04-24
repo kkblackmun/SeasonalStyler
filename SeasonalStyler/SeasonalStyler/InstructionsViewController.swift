@@ -10,6 +10,7 @@ import PhotosUI
 
 class InstructionsViewController: UIViewController {
 
+    @IBOutlet weak var instructionsTitle: UILabel!
     @IBOutlet weak var instructionsText: UITextView!
     @IBOutlet weak var disclaimerText: UITextView!
     @IBOutlet weak var selfieImage: UIImageView!
@@ -35,6 +36,11 @@ class InstructionsViewController: UIViewController {
         selfieImage.layer.masksToBounds = true
 
         // Do any additional setup after loading the view.
+        //ensure the image is displayed as you navigate through different pages
+        //if let userImage = UserDefaultsManager.shared.loadImage(forKey: "userFaceImageData") {
+        //    selfieImage.image = userImage
+        //    confirmImageButton.isHidden = false
+        //}
     }
     
     func configureImagePicker(){
