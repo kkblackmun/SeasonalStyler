@@ -306,8 +306,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrowshape.right" catalog="system" width="128" height="104"/>
-        <image name="eyebrow" catalog="system" width="128" height="107"/>
+        <image name="arrowshape.right" catalog="system" width="32" height="32"/>
+        <image name="eyebrow" catalog="system" width="32" height="32"/>
         <image name="icons8-hair-48" width="48" height="48"/>
         <image name="icons8-human-48" width="48" height="48"/>
         <systemColor name="labelColor">

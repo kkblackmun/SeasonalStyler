@@ -16,6 +16,8 @@ class ColorPickerViewController: UIViewController {
     
     
     @IBOutlet weak var selfieImage: UIImageView!
+    
+    var counter = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         //create the eyedropper navigation button:
@@ -48,6 +50,10 @@ class ColorPickerViewController: UIViewController {
 
     @objc func openColorPicker() {
         presentColorPicker()
+        counter += 1
+        //this counter means that we have to close out the button after each selection, which is more
+        //intuitive than my original idea, even if less smooth
+        //print(counter)
     }
 
     /*
@@ -67,18 +73,21 @@ extension ColorPickerViewController: UIColorPickerViewControllerDelegate {
     func colorPickerViewControllerDidSelectColor(_ viewController: UIColorPickerViewController) {
             let selectedColor = viewController.selectedColor
             updateSwatch(with: selectedColor)
+            //counter += 1
+            print(counter)
         }
     
     private func updateSwatch(with color: UIColor) {
         // Update the next swatch view with the selected color
-        if eyeColorSwatch.backgroundColor == nil {
+        if (eyeColorSwatch.backgroundColor == nil || counter%3 == 1) {
             eyeColorSwatch.backgroundColor = color
-        } 
-        else if skinColorSwatch.backgroundColor == nil {
+        }
+        else if (skinColorSwatch.backgroundColor == nil || counter%3 == 2) {
             skinColorSwatch.backgroundColor = color
-        } 
-        else if hairColorSwatch.backgroundColor == nil {
+        }
+        else if (hairColorSwatch.backgroundColor == nil || counter%3 == 0) {
             hairColorSwatch.backgroundColor = color
         }
+        //counter += 1
     }
 }
