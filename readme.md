@@ -52,13 +52,13 @@ SeasonalStyler is an app that uses generative AI and prompt engineering to find 
 **Required Must-have Stories**
 
 - [X] User can add a picture of themselves
-- [ ] User can add select the color in the picture for their:
-  - [ ] eyes
+- [X] User can add select the color in the picture for their:
+  - [X] eyes
   - [ ] hair
-  - [ ] skin
+  - [X] skin
 - [X] User can go back and change the photo
 - [X] User can confirm their selection
-- [ ] User can confirm their color selection and view the colors they chose
+- [X] User can confirm their color selection and view the colors they chose
 - [ ] User can view the results from Bard API
 
 * ...
