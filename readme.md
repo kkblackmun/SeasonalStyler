@@ -123,8 +123,15 @@ Optional
 [This section will be completed in Unit 9]
 
 ## Models
+![v0.8](ios101-capstone-proj-seasonalstyle_v0.8.gif)
 
-![v0.5](ios101-capstone-proj-seasonalstyle_v0.6.gif)
+### Version 0.8
+
+![v0.7](ios101-capstone-proj-seasonalstyle_v0.7.gif)
+
+### Version 0.7
+
+![v0.6](ios101-capstone-proj-seasonalstyle_v0.6.gif)
 
 ### Version 0.6
 
